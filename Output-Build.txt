@@ -1,0 +1,15 @@
+﻿Build started.
+Project "POV Globe.cppproj" (Compile target(s)):
+Target "Compile" in file "C:\Program Files (x86)\Atmel\Studio\7.0\Vs\Compiler.targets" from project "C:\Users\agroom\Dropbox\Electronics\src\Atmel\Projects\POV Globe\POV Globe\POV Globe.cppproj" (entry point):
+	Task "RunCompilerTask"
+		Shell Utils Path C:\Program Files (x86)\Atmel\Studio\7.0\shellUtils
+		C:\Program Files (x86)\Atmel\Studio\7.0\shellUtils\make.exe "main.o" 
+		Building file: .././main.cpp
+		Invoking: AVR8/GNU C Compiler : 4.9.2
+		"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-g++.exe" -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.90\include" -I"../../../../../Library/POVGlobe"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -g2 -Wall -mmcu=atmega328p -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.0.90\gcc\dev\atmega328p" -c -MD -MP -MF "main.d" -MT"main.d" -MT"main.o"   -o "main.o" ".././main.cpp" 
+		Finished building: .././main.cpp
+	Done executing task "RunCompilerTask".
+Done building target "Compile" in project "POV Globe.cppproj".
+Done building project "POV Globe.cppproj".
+
+Build succeeded.
